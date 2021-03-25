@@ -1,5 +1,4 @@
-﻿<!doctype html>
-<html lang="en">
+﻿<html lang="en">
  <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
@@ -62,7 +61,7 @@
   border-collapse: collapse;
   width: 100%;
   border: 1px solid #ddd;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #myTable th, #myTable td {
@@ -75,7 +74,7 @@
 }
 
 #myTable tr.header, #myTable tr:hover {
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 </style>
 
@@ -84,24 +83,56 @@
 <div class="container">
 <h2>Bot içerisinde bulunan tüm komutlar:</h2>
 <input type="textt" id="myInput" onkeyup="if (!window.__cfRLUnblockHandlers) return false; myFunction()" placeholder="Hangi komutu arıyorsunuz?" title="Arayacağınız Komutu Anahtar Kelime Olarak Giriniz." data-cf-modified-192e6101cbf225a0ad28310e-="">
+
+
 <table id="myTable">
 <tr class="header">
 <th style="width:20%;">Komut</th>
 <th style="width:60%;">Açıklama</th>
 <th style="width:20%;">Kullanım</th>
 
+
+
 </tr>
 <tr>
-<td><strong>yardım</strong></td>
-<td>Bot Komutlarını Görmek İçin.</td>
+<td><strong>Yardım</strong></td>
+<td>Bot komutlarını görebilirsiniz.</td>
 <td>r!yardım</td>
 </tr>
 
 </tr>
 <tr>
-<td><strong>istatistik</strong></td>
+<td><strong>Moderasyon</strong></td>
+<td>Sunucu içerisindeki moderasyon komutlarını gösterir.</td>
+<td>r!moderasyon</td>
+</tr>
+
+</tr>
+<tr>
+<td><strong>Sistem</strong></td>
+<td>Sunucu içerisinideki sistem komutlarını gösterir.</td>
+<td>r!sistem</td>
+</tr>
+
+</tr>
+<tr>
+<td><strong>Eğlenceli</strong></td>
+<td>Kategori halinde tüm eğlence komutlarını gösterir.</td>
+<td>r!eğlenceli</td>
+</tr>
+
+</tr>
+<tr>
+<td><strong>Sunucu Kur</strong></td>
+<td>Otomatik sunucu kurma komutlarını gösterir.</td>
+<td>r!yardım</td>
+</tr>
+
+</tr>
+<tr>
+<td><strong>Bot bilgileri</strong></td>
 <td>Bot Komutlarını Görmek İçin.</td>
-<td>r!isat</td>
+<td>r!bot</td>
 </tr>
 
 </table>
@@ -158,5 +189,12 @@ function myFunction() {
 
 
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="192e6101cbf225a0ad28310e-|49" defer=""></script>
+
+<!--G-->
+
+
+
+
+
 
 </html>
